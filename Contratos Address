@@ -11,3 +11,5 @@ GovernorAlpha: 0x1541D4815d02eFc1971065cD68d478334a6B1d18
 TimeLock: 0xB715E4f813Dd7Ac1BCdF2D2233EFC1Ed84ce917E
 
 GorvernorAlpha2: 0xd967e0223a9e6364fece65112CED0eF63eF77432
+
+bravodelegator necesita tener desplegado el LBM VAULT
