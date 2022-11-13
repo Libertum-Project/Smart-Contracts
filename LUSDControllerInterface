@@ -1,0 +1,15 @@
+pragma solidity ^0.5.16;
+
+import "./VToken.sol";
+
+contract LUSDControllerInterface {
+    function getLUSDAddress() public view returns (address);
+    function getMintableLUSD(address minter) public view returns (uint, uint);
+    function mintLUSD(address minter, uint mintLUSDAmount) external returns (uint);
+    function repayLUSD(address repayer, uint repayLUSDAmount) external returns (uint);
+    function liquidateLUSD(address borrower, uint repayAmount, VTokenInterface vTokenCollateral) external returns (uint, uint);
+
+    function _initializeLibertumLUSDState(uint blockNumber) external returns (uint);
+    function updateLibertumLUSDMintIndex() external returns (uint);
+    function calcDistributeLUSDMinterLibertum(address LUSDMinter) external returns(uint, uint, uint, uint);
+}
