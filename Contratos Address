@@ -4,6 +4,8 @@ LBM: 0x779B152ef4C7861eC33DBD2C3c4Cd8c19C331183
 
 Governor Bravo Delegate: 0xa5Bb0178160b3265515463eA2a803464E2EB7b76
 
+GovernorBravoDelegator: 0x03800b9394bA72eF044a829a01c5E9b15813b063
+
 GovernorBravoInterfaces: 
 governorbravodelegatorStorage: 0x1fd94C44be19603D845A05Dc81775552Ba20cB39
 
