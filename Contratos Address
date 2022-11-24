@@ -30,7 +30,7 @@ ComptrollerLens: 0xae465039b525D5Bb77963D31aC70741080CcFc24
 
 
 
-VBep20: 0x5604E212af8Cd75350C00b302C25C542befEBa95
+VBep20: 0xf2F335372DFC1dF962f7D4780ADec469486fE0D2
 (primer paso setpending admin, 2do paso acceptadmin 3er paso deben aprobar este contrato en el contrato donde va a tomar fondos,
 4to paso initialize/ inicializar el token a usar como prestamos / etc)
 
