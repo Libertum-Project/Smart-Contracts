@@ -1,6 +1,7 @@
 TESNET Verificados:
 
-LBM: 0x779B152ef4C7861eC33DBD2C3c4Cd8c19C331183
+LBM: 0xB447ebBbF761E81D79829A36829481cE44b6580E
+(token de gobernanza)
 
 Governor Bravo Delegate: 0xa5Bb0178160b3265515463eA2a803464E2EB7b76
 
@@ -8,24 +9,37 @@ GovernorBravoDelegator: 0x03800b9394bA72eF044a829a01c5E9b15813b063
 
 GovernorBravoInterfaces: 
 governorbravodelegatorStorage: 0x1fd94C44be19603D845A05Dc81775552Ba20cB39
+(interfaz de gobernanza b)
 
 SafeMath: 0xf0f1D028aAC9fBB308c19DF08dd3eCa71E77b9f3
+(libreria de matematicas para evitar overflows)
 
-GovernorAlpha: 0x56905355b496928010dd66847bC8602C465e8336
+GovernorAlpha: 0xb76cffC5F508f28A263a4B790066E05d6B580eBf
+(contrato de votacion de gobernanza principal, funcion propose para proponer una votacion/ funcion cast votes para ejecutar votos
+minimo de tokens para proponer votacion 300k minimo quorum 600k )
 
 TimeLock: 0xB715E4f813Dd7Ac1BCdF2D2233EFC1Ed84ce917E
+(controla los admins y tiempos)
 
-GorvernorAlpha2: 0xd967e0223a9e6364fece65112CED0eF63eF77432
 
-bravodelegator necesita tener desplegado el LBM VAULT
+GorvernorAlpha2: 0xDa6E08bf187b73F8eEC6341a59f5d5Da261FF156
+(v2)
+
 
 ComptrollerLens: 0xae465039b525D5Bb77963D31aC70741080CcFc24
 
+
+
 VBep20: 0x5604E212af8Cd75350C00b302C25C542befEBa95
+(primer paso, deben aprobar este contrato en el contrato donde va a tomar fondos,
+2do paso initialize/ inicializar el token a usar como prestamos / etc
+3)
+
+
 
 ErrorReporter: 0xB285AFdFbc7222a81FE3D0796AC8931CD97A7454
 
-Comptroller: 0xD200FC1B661fDf95D28ba6d5Eef25568BDB65562
+Comptroller: 0xA210dCFd4B9F910E9c54f047e8e0F9c902290cF0
 
 Exponential: 0x4a406cd65a90F74AB3e7b8A3A0736D1aC42e29F1
 
@@ -41,7 +55,7 @@ LUSD: 0x79d7DC8d549DafA38F727D8C2f6836E8e86a74B8
 
 InterestRateModelLens: 0x806804B9Fe99c13721A1F3640a09FE0a39Ce07b4
 
-Snapshots: 0xCaD6C4569fC49730A62c7CEE3B870248e6ba45F6
+Snapshots: 0x22D6097FC192859Ea830f19E9BCd59eb432DFC91
 
 LUSDVault: 0xc77C0F13DfAEafC12A49a56322fC53b263D6a3Df
 
